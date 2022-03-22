@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { search } from "../BooksAPI";
-import { update } from "../BooksAPI";
 import Book from "../components/Book";
 
 function Search({ bookChangeHandler }) {
